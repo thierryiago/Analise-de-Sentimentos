@@ -28,7 +28,6 @@ idioma = Interface.interfaceIdioma()
 if idioma == "":
     idioma = "en"
 
-print(sentences)
 if not sentences:
     Interface.interfaceNula()
     exit()
