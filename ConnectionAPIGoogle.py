@@ -7,7 +7,7 @@ def callGoogleApi(sentences, targetLanguage):
 
     # Define os parâmetros da solicitação POST
     params = {
-        "key": "AIzaSyBc6OzAmOyqnQ_RtnonNlPemi3tr6qDqWc", #Substitua pela sua chave de API
+        "key": "", #Substitua pela sua chave de API
         "source": "pt", #Idioma de origem
         "target": targetLanguage, #Idioma de destino
         "q": sentences #Texto a ser traduzido,

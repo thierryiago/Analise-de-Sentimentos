@@ -34,7 +34,6 @@ def interfaceIdioma():
         [sg.Text("Digite o idioma de sua preferência: ")],
         [sg.InputText(key="idioma")],
         [sg.Button("Salvar"), sg.Button("Sair")],
-        [sg.Text("", key="idioma")],
     ]
 
     janela = sg.Window("Análise de Sentimentos", layout)
